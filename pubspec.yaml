@@ -1,0 +1,15 @@
+name: hansel
+version: 0.0.1
+description: >-
+  Hansel is a libary to manage async API calls.
+  You can add or remove a breadcrumb on a path.
+  When a response arrives, check for the breadcrumb associated with it,
+  and ignore the response if the breadcrumb is not there.
+
+  This is useful for async communication on sequential protocols like WebSocket or HTTP Streaming.
+author: elbaro <elbaro@users.noreply.github.com>
+homepage: https://github.com/elbaro/dart-hansel
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+dependencies:
+dev_dependencies:
